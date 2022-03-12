@@ -1,0 +1,48 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADD_H	ADT/header.h	2;"	d
+ADD_H	IO/header.h	2;"	d
+ADD_H	PassArg2Prog/header.h	2;"	d
+ADD_H	slide10/header.h	2;"	d
+ADD_H	slide7/header.h	2;"	d
+ADD_H	slide8/header.h	2;"	d
+ADD_H	slide9/header.h	2;"	d
+CLUBS	slide10/header.h	/^enum Suit_t {CLUBS,DIAMONDS,HEARTS,SPADES};$/;"	e	enum:Suit_t
+DIAMONDS	slide10/header.h	/^enum Suit_t {CLUBS,DIAMONDS,HEARTS,SPADES};$/;"	e	enum:Suit_t
+HEARTS	slide10/header.h	/^enum Suit_t {CLUBS,DIAMONDS,HEARTS,SPADES};$/;"	e	enum:Suit_t
+IntSet	ADT/header.h	/^class IntSet{$/;"	c
+IntSet	ADT/main.cpp	/^IntSet::IntSet():numElts(0){}$/;"	f	class:IntSet
+MAXELTS	ADT/header.h	/^const int MAXELTS=100;$/;"	v
+SPADES	slide10/header.h	/^enum Suit_t {CLUBS,DIAMONDS,HEARTS,SPADES};$/;"	e	enum:Suit_t
+Suit_t	slide10/header.h	/^enum Suit_t {CLUBS,DIAMONDS,HEARTS,SPADES};$/;"	g
+add_one	ADT/main.cpp	/^void add_one(anInt *ip){$/;"	f
+anInt	ADT/header.h	/^class anInt{$/;"	c
+elts	ADT/header.h	/^    int elts[MAXELTS];$/;"	m	class:IntSet
+fibo	slide8/main.cpp	/^int fibo(int x){$/;"	f
+fibo3	slide8/main.cpp	/^int fibo3(int x){$/;"	f
+get_value	ADT/main.cpp	/^int anInt::get_value(){$/;"	f	class:anInt
+indexOf	ADT/main.cpp	/^int IntSet::indexOf(int v){$/;"	f	class:IntSet
+insert	ADT/main.cpp	/^void IntSet::insert(int v){$/;"	f	class:IntSet
+isRed	slide10/main.cpp	/^bool isRed(Suit_t s){$/;"	f
+main	ADT/main.cpp	/^int main(){$/;"	f
+main	IO/main.cpp	/^int main(){$/;"	f
+main	PassArg2Prog/main.cpp	/^int main(int argc, char *argv[]){$/;"	f
+main	slide10/main.cpp	/^int main(){$/;"	f
+main	slide7/main.cpp	/^int main(){$/;"	f
+main	slide8/main.cpp	/^int main(){$/;"	f
+main	slide9/main.cpp	/^int main(){$/;"	f
+max	slide9/header.h	/^int max(int a,int b){$/;"	f
+min	slide9/header.h	/^int min(int a,int b){$/;"	f
+numElts	ADT/header.h	/^    int numElts;$/;"	m	class:IntSet
+plus_one	slide7/main.cpp	/^int plus_one(int x){$/;"	f
+plus_two	slide7/main.cpp	/^int plus_two(int x){$/;"	f
+query	ADT/main.cpp	/^bool IntSet::query(int v){$/;"	f	class:IntSet
+remove	ADT/main.cpp	/^void IntSet::remove(int v){$/;"	f	class:IntSet
+set_value	ADT/main.cpp	/^void anInt::set_value(int newVal){$/;"	f	class:anInt
+size	ADT/main.cpp	/^int IntSet::size(){$/;"	f	class:IntSet
+suitname	slide10/main.cpp	/^const std::string suitname[]={"clubs","diamonds","hearts","spades"};$/;"	v
+v	ADT/header.h	/^    int v;$/;"	m	class:anInt
